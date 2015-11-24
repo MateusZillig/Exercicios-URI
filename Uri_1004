@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+main(){
+    int x,y,PROD;
+
+    scanf("%d",&x);
+    scanf("%d",&y);
+
+    PROD=x*y;
+
+    printf("PROD = %d",PROD);
+
+    system("pause");
+    return 0;
+}
