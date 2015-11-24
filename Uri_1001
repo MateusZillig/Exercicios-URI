@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+main(){
+    int A,B,X;
+
+    scanf("%d",A);
+    scanf("%d",B);
+
+    X=A+B;
+
+    printf("A = %d",X);
+
+    system("pause");
+    return 0;
+}
