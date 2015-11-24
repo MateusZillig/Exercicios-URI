@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+main(){
+    double pi,raio, A;
+    pi=3.14159;
+
+    scanf("%lf",&raio);
+
+    A=(raio*raio)*pi;
+
+    printf("A=%.4lf\n",A);
+
+    system("pause");
+    return 0;
+}
